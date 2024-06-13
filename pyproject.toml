@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "program"
+version = "0.1.0"
+description = "Personality factors seg"
+authors = ["Students of UDSW <jane_doe@some_email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pandas = "^1.3.0"
+numpy = "^1.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
